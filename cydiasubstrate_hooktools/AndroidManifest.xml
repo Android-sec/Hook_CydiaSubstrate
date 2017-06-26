@@ -1,0 +1,18 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cydiasubstrate.hooktools"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="CHT">
+        <meta-data android:name="com.saurik.substrate.main" android:value="cydiasubstrate.hooktools.Initialize" />
+    </application>
+
+          <uses-permission android:name="cydia.permission.SUBSTRATE" />
+</manifest>
